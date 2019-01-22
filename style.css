@@ -250,11 +250,14 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  #intoduction,
   .contact-text,
   .footer,
   .footer a {
     font-size: 0.9rem;
+  }
+
+  #intoduction {
+    font-size: 0.8rem;
   }
 
   .navbar-link-container {
@@ -276,9 +279,12 @@ body {
 
   .projects-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 0;
+    padding: 0;
   }
 
   .grid-item {
+    margin: 0;
     padding: 0;
   }
 }
