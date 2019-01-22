@@ -246,6 +246,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.8rem;
+  }
+  
   #intoduction {
     font-size: 0.9rem;
   }
