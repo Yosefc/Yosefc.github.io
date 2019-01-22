@@ -246,13 +246,13 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 0.8rem;
-  }
-  
-  #intoduction {
+  #intoduction,
+  .contact-text,
+  .footer,
+  .footer a {
     font-size: 0.9rem;
   }
+
   .navbar-link-container {
     display: none;
   }
