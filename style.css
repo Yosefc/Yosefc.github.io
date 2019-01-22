@@ -279,12 +279,9 @@ body {
 
   .projects-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin: 0;
-    padding: 0;
   }
 
   .grid-item {
-    margin: 0;
     padding: 0;
   }
 }
