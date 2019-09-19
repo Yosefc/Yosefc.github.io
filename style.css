@@ -9,6 +9,7 @@ body {
 }
 
 .mobile-menu-toggle {
+  display: none;
   position: relative;
   top: -25px;
   padding: 0;
@@ -16,12 +17,7 @@ body {
   margin-left: 15px;
 }
 
-.mobile-menu-toggle {
-  display: none;
-}
-
 .side-nav {
-  /* display: none; */
   position: fixed;
   z-index: 2;
   background-color: black;
